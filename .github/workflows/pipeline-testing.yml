@@ -3,10 +3,10 @@ name : "Testeo de la aplicacion"
 on:
     push:
         branches:
-            - release
+            - main
     pull_request:
         branches:
-            - release
+            - main
 jobs:   
     Testing: 
         runs-on: ubuntu-latest
